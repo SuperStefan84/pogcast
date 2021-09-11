@@ -1,3 +1,49 @@
-<html>
-ez
-</html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body {
+  background-color: white;
+  color: black;
+  background-image: url('light.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+  background-image: url('dark.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+.noc {background-color:rgba(0, 0, 0, 0.1)}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+
+
+</style>
+</head>
+<body>
+<button class="noc" onclick="myFunction()">Toggle dark mode</button>
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+
+
+<a href="https://www.youtube.com/channel/UCsIhogHx8L5lxDxmE2JzMoA/">
+  <img src="PogCastlogo2.png" width="60%" height="40%" class="center">
+</a>
